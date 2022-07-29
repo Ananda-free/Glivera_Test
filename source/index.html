@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="Ru">
+  @include('partials/head.html')
+
+<body>
+    <!-- @include('partials/header.html') -->
+
+    <main>
+        <section class="test">
+          <div class="container">
+            <div class="test__wrapper">
+              <div class="aside-menu-btn burger" data-burger>
+              </div>
+
+              <aside class="test__aside " data-menu>
+                <div class="test__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/img.webp'>
+                    <img width='220' height='293' src='img/img.png' alt='img'>
+                  </picture>
+                </div>
+
+
+                <ul class="test__first-list ">
+                  <li class="test__first-item hover">
+                    <a href="#" class="test__first-link">
+                      Сообщения
+                    </a>
+                    <span>3</span>
+                  </li>
+                </ul>
+
+                <ul class="test__second-list ">
+                  <li class="test__second-item hover">
+                  <a href="#" class="test__second-link">
+                    Профиль
+                  </a>
+                  </li>
+                  <li class="test__second-item hover">
+                  <a href="#" class="test__second-link">
+                    Настройки
+                  </a>
+                  </li>
+                </ul>
+
+                <ul class="test__third-list">
+                  <li class="test__third-item hover">
+                    <a href="#" class="test__third-link">
+                      Вопросы
+                    </a>
+                  </li>
+                  <li class="test__third-item hover">
+                    <a href="#" class="test__third-link">
+                      Написать модератору
+                    </a>
+
+                  </li>
+                </ul>
+
+                <button class="test__aside-btn">
+                  Купить подписку
+                </button>
+
+              </aside>
+
+
+              <div class="test__mail">
+                <ul class="test__mail-nav">
+                  <li class="test__mail-nav-item">
+                    <button class="nav-btn__delete">
+                      Удалить
+                    </button>
+                  </li>
+                  <li class="test__mail-nav-item">
+                    <button class="nav-btn__add-to-archive">
+                      Добавить в архив
+                    </button>
+                  </li>
+                  <li class="test__mail-nav-item">
+                    <button class="nav-btn__unread">
+                      Непрочитанные
+                    </button>
+                  </li>
+                  <li class="test__mail-nav-item">
+                    <button class="nav-btn__archive">
+                      Архив
+                    </button>
+                  </li>
+
+                  <li class="test__mail-nav-item">
+                    <form class="test__mail-nav-search" action="">
+                      <input type="text" placeholder="Искать &#8594; ">
+                    </form>
+                  </li>
+
+                </ul>
+
+
+                <ul class="test__mail-list">
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Александр Антонович</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg>
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>здравствуйте. как долго придется ждать нож кото</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>
+                        13 &frasl; 04 &#8260; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>14:02</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user  new-message">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Gun Machine</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>а почему на ноже нет ни одной царапины?</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>01 &frasl; 12 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>00:14</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1" checked>
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Диана Павлова</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>нет, мне не нужно. если и вам тоже пофиг, то выб</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>13 &frasl; 04 &#8260; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>14:02</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user new-message">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Otto Zweig</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>thank you!  that’s great!</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>01 &frasl; 12 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>00:14</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Александр Антонович</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg>
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>здравствуйте. как долго придется ждать нож кото</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>13 &frasl; 04 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>14:02</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user  new-message">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Gun Machine</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>а почему на ноже нет ни одной царапины?</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>01 &frasl; 12 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>00:14</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1" checked>
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Диана Павлова
+                      </span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>нет, мне не нужно. если и вам тоже пофиг, то выб</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span>13 &frasl; 04 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>14:02</span>
+                    </div>
+
+
+                  </li>
+
+                  <li class="test__mail-item">
+                    <div class="test__mail-checkbox">
+                      <input type="checkbox" id="cb1">
+                      <label for="cb1"></label>
+                    </div>
+                    <div class="test__mail-user  new-message">
+                      <svg width='40' height='40'>
+                        <use href='img/sprite/sprite.svg#user'></use>
+                      </svg>
+                      <span></span>
+                    </div>
+
+                    <div class="test__mail-name">
+                      <span>Otto Zweig</span>
+                    </div>
+
+                    <div class="test__mail-cart">
+                      <!-- <svg width='16' height='16'>
+                        <use href='img/sprite/sprite.svg#cart'></use>
+                      </svg> -->
+                    </div>
+
+                    <div class="test__mail-message">
+                      <span>thank you!  that’s great!</span>
+                    </div>
+
+                    <div class="test__mail-date">
+                      <span value="dd/mm/yyyy">01 &frasl; 12 &frasl; 2018</span>
+                    </div>
+
+                    <div class="test__mail-time">
+                      <span>00:14</span>
+                    </div>
+
+
+                  </li>
+
+
+                </ul>
+
+                <div class="test__tabs-list-wrapper">
+                  <ul class="test__tabs-list">
+                    <li class="test__tabs-item">
+                      <span>1</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>2</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>3</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>4</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>5</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>6</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>7</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>8</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>9</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>10</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>_</span>
+                    </li>
+                    <li class="test__tabs-item">
+                      <span>123</span>
+                    </li>
+
+
+                  </ul>
+                  <button class="test__tabs-arrow">
+                    <svg class="test__tabs-arrow" width="50.206" height="14.855">
+                      <use href='img/sprite/sprite.svg#tab-arrow'></use>
+                    </svg>
+                  </button>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="overlay" data-menu-overlay></div>
+        </section>
+
+
+    </main>
+
+
+    <!-- @include('partials/footer.html') -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

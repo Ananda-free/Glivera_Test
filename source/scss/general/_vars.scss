@@ -1,0 +1,44 @@
+:root {
+
+  --body-bg: #151515;
+
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  --font-family: 'Circe', sans-serif; // var(--font-family);
+  // text color
+  --color-a: #ffffff; // var(--color-a);
+  --color-b: #DB9351; // var(--color-b);
+  --color-c: #FF5B5C; // var(--color-c);
+  --color-d: #242424; // var(--color-d);
+  --color-e: #1D1C1C; // var(--color-e);
+  --color-f: #959595; // var(--color-f);
+  --color-g: #151515; // var(--color-g);
+  --color-h: #ABDB51; // var(--color-h);
+  --color-i: #959595; // var(--color-i);
+
+
+  --color-j: #212121; // var(--color-j);
+  --color-k:  #ec780b; // var(--color-k);
+
+
+  --color-l: #FFAE35; // var(--color-l);
+  --color-m: #738396; // var(--color-m);
+
+  --primary-link-bg: #FFAE35; // var(--primary-link-bg);
+  --index-second-bg: #F3F8FF; // var(--index-second-bg);
+
+
+
+
+  --default-slider-btn:#BABCBF;
+  --active-slider-btn:#3671D4;
+
+
+  --trade-section-image: url(../img/trade-section-image.png);
+
+  --burger-width: 30px;
+  --burger-height: 30px;
+  --burger-line-height: 2px;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <filter id="Эллипс_150" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_1738" data-name="Сгруппировать 1738" transform="translate(15 15)">
+    <g transform="matrix(1, 0, 0, 1, -15, -15)" filter="url(#Эллипс_150)">
+      <path id="Эллипс_150-2" data-name="Эллипс 150" d="M0,20A20,20,0,1,1,20,40,20,20,0,0,1,0,20Z" transform="translate(15 15)" fill="#fff" opacity="0.2"/>
+    </g>
+    <path id="profile_1_" d="M15.191,15.946a.782.782,0,0,1-.8-.719A6.083,6.083,0,0,0,8,9.554a6.083,6.083,0,0,0-6.392,5.673.853.853,0,0,1-.8.719.828.828,0,0,1-.635-.288.719.719,0,0,1-.165-.591A7.584,7.584,0,0,1,4.963,8.516,4.988,4.988,0,0,1,3.206,4.76,4.667,4.667,0,0,1,7.879,0a5.106,5.106,0,0,1,.68.046,4.826,4.826,0,0,1,4.155,4,4.839,4.839,0,0,1-1.758,4.475,7.722,7.722,0,0,1,5.033,6.551.718.718,0,0,1-.164.59A.828.828,0,0,1,15.191,15.946ZM8,1.564a3.2,3.2,0,1,0,3.2,3.2A3.2,3.2,0,0,0,8,1.564Z" transform="translate(11.999 11.999)" fill="#fff"/>
+  </g>
+</svg>
